@@ -1,0 +1,15 @@
+.partition {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.partitionbutton {
+  margin: 5px;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+}

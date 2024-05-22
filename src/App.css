@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: red solid 1px; */
+}
+body {
+  background-color: white;
+  color: black;
+  overflow-x: hidden;
+}
+
+.partitionApp {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: #f0f0f0;
+}
